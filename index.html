@@ -33,12 +33,23 @@
 	</ul>
 
 	<script type="text/javascript">
+		<!--调用viewer函数即可-->
 		$('#image').viewer({
-   			url: 'data-original'
+   			url: 'data-original',
+			title: false, 
+			show: function(){
+				alert("show");
+			}
 		});
 
+		// 用法实例
 		$('#viewer').viewer({
-		    url: 'data-original'
+		    url: 'data-original',
+			title: false, 
+			interval: 1000,
+			show: function(){
+				alert("show");
+			}
 		});
 	</script>
 </body>

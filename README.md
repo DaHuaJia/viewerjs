@@ -31,4 +31,7 @@
 
 ### 链接
 > 演示地址：http://www.dowebok.com/demo/192/index2.html   
-> 博客：https://www.cnblogs.com/Jimc/p/10132177.html
+> 博客：https://www.cnblogs.com/Jimc/p/10132177.html  
+
+### 提示
+> demoPage 里面是一个完整的ViewerJS的演示实例  

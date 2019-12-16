@@ -3,18 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jquery-Viewer</title>
-  	<link rel="stylesheet" href="css/bootstrap.min.css">
-  	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/viewer.min.css">
- 
-	<!--JS-->
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/common.js"></script>
-	<script src="js/viewer.js"></script>
-	<script src="js/jquery-viewer.js"></script>
-	<script src="js/main.js"></script>
-
+	<script src="js/jquery.min.js"></script>
+	<script src="js/viewer-jquery.min.js"></script>
 </head>
 <body>
 	<!-- 单张图片 -->
@@ -35,11 +26,7 @@
 	<script type="text/javascript">
 		<!--调用viewer函数即可-->
 		$('#image').viewer({
-   			url: 'data-original',
-			title: false, 
-			show: function(){
-				alert("show");
-			}
+   			url: 'data-original'
 		});
 
 		// 用法实例
